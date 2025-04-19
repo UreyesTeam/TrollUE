@@ -5,3 +5,17 @@ api-version: '1.21'
 authors: [ UzawaReisaQwQ ]
 description: TrollUE Plugin
 website: https://ureyes.online
+
+commands:
+  trollue:
+    description: 主命令
+    usage: /trollue <reload/sudo/spinning/rocket>
+    aliases: [troll]
+    permission: trollue.use
+permissions:
+  trollue.use:
+    description: 允许使用所有 trollue 子命令
+    default: op
+  trollue.reload:
+    description: 允许重新加载配置
+    default: op
