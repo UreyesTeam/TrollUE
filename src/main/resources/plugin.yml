@@ -1,0 +1,7 @@
+name: TrollUE
+version: '1.0-SNAPSHOT'
+main: cn.ureyes.plugin.TrollUE
+api-version: '1.21'
+authors: [ UzawaReisaQwQ ]
+description: TrollUE Plugin
+website: https://ureyes.online
